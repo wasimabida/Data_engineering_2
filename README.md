@@ -5,7 +5,7 @@
 ## Architecture
 ![](src/assets/System_architecture.png)
 
-Let's dive on the steps included: 
+*Let's dive on the steps included:*
 - **Setting up and Configuring TCP/IP for Data Transmission over Socket** 
 - **Streaming Data with Apache Spark from Socket** use Apache Spark for real-time data streaming from a socket, enabling scalable and high-throughput data processing.
 - **Real-time Sentiment Analysis with OpenAI LLM (ChatGPT):** Utilize OpenAI's Language Model (LLM), specifically ChatGPT, for real-time sentiment analysis. This involves prompt engineering to tailor the model to classify sentiment
