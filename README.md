@@ -7,7 +7,7 @@
 
 Let's dive on the steps included: 
 - **Setting up and Configuring TCP/IP for Data Transmission over Socket** 
-- **Streaming Data with Apache Spark from Socket**
+- **Streaming Data with Apache Spark from Socket** use Apache Spark for real-time data streaming from a socket, enabling scalable and high-throughput data processing.
 - **Real-time Sentiment Analysis with OpenAI LLM (ChatGPT):** Utilize OpenAI's Language Model (LLM), specifically ChatGPT, for real-time sentiment analysis. This involves prompt engineering to tailor the model to classify sentiment
 - **Prompt Engineering:** Understand the art of crafting effective prompts to guide the language model and extract desired responses.
 - **Setting up Kafka for Real-time Data Ingestion and Distribution:** Implement Kafka as a reliable and scalable message broker to facilitate real-time data ingestion and distribution.
