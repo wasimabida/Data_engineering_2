@@ -1,17 +1,17 @@
 config = {
     "openai": {
-        "api_key":"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"
+        "api_key":"OpenAI_Key"
     },
     "kafka":{
-        "sasl.username": "6K57MAYJV67MFNXM",
-        "sasl.password": "6gMciUQglVobXd5wbtaIL5BkgTHdS5LivO7xycIvBcHkZIAJKSU9fmndIvC4ID4L",
-        "bootstrap.servers": "pkc-4r087.us-west2.gcp.confluent.cloud:9092",
+        "sasl.username": "Kafka_cluster_API_key_Confluent",
+        "sasl.password": "Kafka_cluster_API_secret_Confluent",
+        "bootstrap.servers": "Kafka_cluster_url_bootstrap_servers:port",
         'security.protocol': 'SASL_SSL',
         'sasl.mechanisms':'PLAIN',
         'session.timeout.ms':50000
     },
     "schema_registry": {
-        "url": "https://psrc-r3wv7.us-central1.gcp.confluent.cloud",
-        "basic.auth.user.info": "64WIRZDVUHBHHO5J:ap0ayiJOgRmBTe0Pe5YNli2VoHEbAOVbpyJYZL2qXaPn0xE14RAf2yNZ3Nxs90oY" #username:password of the schema registry 
+        "url": "schema_registry_URL",
+        "basic.auth.user.info": "schema_registry_api_key:schema_registry_api_secret" #username:password of the schema registry 
     }
 }
